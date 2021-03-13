@@ -1,0 +1,52 @@
+{
+  "name": "site",
+  "version": "0.1.0",
+  "private": true,
+  "engines": {
+    "npm": "6.13.7",
+    "node": "13.9.0"
+  },
+  "dependencies": {
+    "@sweetalert/with-react": "^0.1.1",
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "bootstrap": "^4.4.1",
+    "express": "^4.17.1",
+    "express-favicon": "^2.0.1",
+    "moment": "^2.24.0",
+    "node-sass": "^4.13.1",
+    "path": "^0.12.7",
+    "react": "^16.13.0",
+    "react-bootstrap": "^1.0.0-beta.17",
+    "react-cookies": "^0.1.1",
+    "react-datepicker": "^2.14.1",
+    "react-dom": "^16.13.0",
+    "react-icons": "^3.9.0",
+    "react-moment": "^0.9.7",
+    "react-router-dom": "^5.1.2",
+    "react-scripts": "^4.0.3",
+    "sweetalert": "^2.1.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
